@@ -11,6 +11,20 @@
  *= require_self
  *= require_tree .
  */
+@font-face {
+  font-family: 'Kautiva';
+  src: url('Kautiva.ttf');
+  src: local('Kautiva'), local('Kautiva'), url(Kautiva.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: 'Kautiva-Caps-Bold';
+  src: url('Kautiva-Caps-Bold.ttf');
+  src: local('Kautiva-Caps-Bold'), local('Kautiva-Caps-Bold'), url(Kautiva-Caps-Bold.ttf) format('truetype')
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Jolly+Lodger|Creepster);
 body{
 	background: url(image_path('blue.jpg')) no-repeat fixed ;
 	font-family: Kautiva, Helvetica;

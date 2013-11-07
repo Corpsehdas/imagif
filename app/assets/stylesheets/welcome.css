@@ -2,18 +2,6 @@
 // --------
 //Font Faces
 // --------
-@font-face {
-  font-family: 'Kautiva';
-  src: url('Kautiva.ttf');
-  src: local('Kautiva'), local('Kautiva'), url(Kautiva.ttf) format('truetype')
-}
-
-@font-face {
-  font-family: 'Kautiva-Caps-Bold';
-  src: url('Kautiva-Caps-Bold.ttf');
-  src: local('Kautiva-Caps-Bold'), local('Kautiva-Caps-Bold'), url(Kautiva-Caps-Bold.ttf) format('truetype')
-}
-
 
 
 .line-top{
@@ -31,12 +19,13 @@
 	padding-bottom: 10px;
 	position: relative;
 	text-align: left;
-	font-family: 'Nosifer', cursive;
-	font-size: 2em;
+	font-family: 'Creepster', cursive;
+	font-size: 4em;
 	padding-left: 40px;
 }
 
 .line1{
+	font-family: 'Jolly Lodger', cursive;
 	background-color: #EDEDED;
 	color: grey;
 	margin-bottom: 10px;
