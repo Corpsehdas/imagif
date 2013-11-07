@@ -15,17 +15,13 @@
 }
 
 
+
 .line-top{
 	background-color: #EDEDED;
 	width: 899px;
 	height: 7px;
 	margin-left: 78px;
 }
-body{
-	background: url(image_path('blue.jpg')) no-repeat fixed ;
-	font-family: Kautiva, Helvetica;
-}
-
 
 .header{
 	background-color: #3366FF;
@@ -35,9 +31,8 @@ body{
 	padding-bottom: 10px;
 	position: relative;
 	text-align: left;
-	font-family: Kautiva-Caps-Bold, Helvetica;
-	font-size: 4em;
-	font-style: oblique;
+	font-family: 'Nosifer', cursive;
+	font-size: 2em;
 	padding-left: 40px;
 }
 
