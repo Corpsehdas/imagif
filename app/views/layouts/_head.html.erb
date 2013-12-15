@@ -2,8 +2,13 @@
   
 </div>
 <div class="header">
-	
-Blog
+<% if user_signed_in? %>
+	Bienvenido! <%= current_user.email %>
+	<p><%= link_to "Cerrar sesion", destroy_user_session_path, method: :delete %></p>
+<% else %>
+	<p><%= link_to "Crea una cuenta!", new_user_registration_path %></p>
+	<p>Si ya tienes cuenta! <%= link_to 'Logueate!', new_user_session_path %></p>
+<% end -%>
 </div>
 
 <div style="width:1054px; margin:0 auto;">
